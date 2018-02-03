@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 308px;
+  height: 366px;
+}
+
+.imgg {
+  left: -1.61%;
+  right: -1.61%;
+  width: inherit;
+  height: 236px;
+}
+
+.restname {
+  margin-top: 16px;
+  background-color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #1D1D1D;
+}
+
+.itemname {
+  margin-top: -12px;
+  background-color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+  color: #626262;
+}
+
+.deliverytime {
+  margin-top: -12px;
+  background-color: white;
+  left: 0%;
+  right: 0%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 13px;
+  color: #1D1D1D;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  flex-basis: 8.33%;
+}
+
+.col-2 {
+  flex-basis: 16.66%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.33%;
+}
+
+.col-5 {
+  flex-basis: 41.66%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.33%;
+}
+
+.col-8 {
+  flex-basis: 66.66%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.33%;
+}
+
+.col-11 {
+  flex-basis: 91.66%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
+.container {
+  width: 976px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.restaurants {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: auto;
+  height: 34px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 22px;
+  color: #1D1D1D;
+  border-top: 1px solid #757575;
+  padding-top: 56px;
+  opacity: 30%;
+}
+
+.search {
+  display: flex;
+  flex-wrap: row;
+  padding-top: 79px;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+  border: 1px solid transparent;
+  position: relative;
+  float: left;
+}
+
+input {
+  width: 223px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #626262;
+  opacity: 0.5;
+}
+
+.searchButton {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+  margin-left: 2px;
+  border: 1px solid white;
+  background-color: white;
+  cursor: pointer;
+}
+
+header {
+  height: 72px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+
+.headerc {}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 8px;
+}
+
+.asapcont {
+  width: 65px;
+  height: 40px;
+  left: 324px;
+  top: 16px;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.asaptext {
+  width: 41px;
+  height: 24px;
+  left: 336px;
+  top: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #1D1D1D;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.to {
+  width: 14px;
+  height: 19px;
+  left: 398px;
+  top: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 16px;
+  color: #626262;
+}
+
+.adresscont {
+  width: 300px;
+  height: 40px;
+  left: 421px;
+  top: 17px;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.empty{
+ 
+  
+}

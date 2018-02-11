@@ -55,6 +55,14 @@ html {
   flex-wrap: wrap;
 }
 
+.footercolumn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+  margin-top: 39px;
+
+}
+
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
   padding-left: 8px;
   padding-right: 8px;
@@ -186,27 +194,43 @@ header {
   margin-left: 8px;
 }
 
+.logofooter {
+  height: 20px;
+  margin-top: 56px;
+  margin-bottom: 41px;
+  box-sizing: border-box;
+  margin-left: -8px;
+}
+
+.border {
+  border-bottom: 1px solid #757575;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 .asapcont {
   width: 65px;
   height: 40px;
-  left: 324px;
-  top: 16px;
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
   border-radius: 2px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .asaptext {
-  width: 41px;
-  height: 24px;
-  left: 336px;
-  top: 24px;
+  width: 65px;
+  height: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
   font-size: 16px;
   color: #1D1D1D;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .row::after {
@@ -226,6 +250,7 @@ header {
   line-height: normal;
   font-size: 16px;
   color: #626262;
+  margin-top: 30px;
 }
 
 .adresscont {
@@ -236,4 +261,36 @@ header {
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
   border-radius: 2px;
+  margin-top: 15px;
+}
+
+footer {
+  margin: 0 auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  height: 552px;
+  background: #262626;
+  box-sizing: border-box;
+}
+
+.footerrowtext {
+  font-family: Roboto;
+  font-style: regular;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: Left;
+  fill: Solid;
+  color: #FFFFFF;
+}
+.badge{
+  
+  margin-left: auto;
+  margin-right: auto ;
+  width: max-content;
+  margin-top: 42px;
+  margin-bottom: 40px;
+}
+.badgespace{
+  margin-right: 41px;
 }
